@@ -44,7 +44,7 @@ The repo is for weather app
 
 If you have questions about this application, I can be contacted at 
   
-**null**
+**ekesolomon11@gmail.com**
 
 <img src="https://avatars1.githubusercontent.com/u/52632968?v=4" alt="Solomon Eke" style='width: 200px; height: 200px;'>
 
