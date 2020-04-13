@@ -15,12 +15,16 @@ The repo is for weather app
 ## Installation
 <p id='installation'></p>
 
-  run npm
+Clone this repo to your local machince using https://github.com/solomon-eke/Good-Readme-Generator
+
+Install all dependencies by running:
+
+npm install
 
 ## Usage
 <p id='usage'></p>
-
-  just run the app
+Run
+node index.js
 
 ## License
 <p id='license'></p>
@@ -32,7 +36,13 @@ The repo is for weather app
 ## Contributing
 <p id='contributing'></p>
 
-  1
+  If you would like to contribute to this project you can:
+
+Either fork or clone this repo (https://github.com/solomon-eke/Good-Readme-Generator)
+
+Add any changes/upgrades you would like
+
+Update the README with changes made, new technologies used, etc.
 
 ## Tests
 <p id='tests'></p>
