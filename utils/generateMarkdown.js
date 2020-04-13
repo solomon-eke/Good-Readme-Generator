@@ -1,8 +1,9 @@
-
-# Weather-Dashboard
+function generateMarkdown(data) {
+  return `
+# ${data.title}
 
 ## Description
-The repo is for weather app
+${data.description}
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -15,36 +16,40 @@ The repo is for weather app
 ## Installation
 <p id='installation'></p>
 
-  run npm
+  ${data.installation}
 
 ## Usage
 <p id='usage'></p>
 
-  just run the app
+  ${data.useage}
 
 ## License
 <p id='license'></p>
 
-<img alt='licenseBadge' src='https://img.shields.io/badge/License-MIT License-BLUE'>
+<img alt='licenseBadge' src='https://img.shields.io/badge/License-${data.license}-BLUE'>
   
-- MIT License
+- ${data.license}
 
 ## Contributing
 <p id='contributing'></p>
 
-  1
+  ${data.contributing}
 
 ## Tests
 <p id='tests'></p>
 
-  test
+  ${data.test}
 
 ## Questions
 <p id='questions'></p>
 
 If you have questions about this application, I can be contacted at 
   
-**null**
+**${data.email}**
 
-<img src="https://avatars1.githubusercontent.com/u/52632968?v=4" alt="Solomon Eke" style='width: 200px; height: 200px;'>
+<img src="${data.avatar_url}" alt="${data.name}" style='width: 200px; height: 200px;'>
 
+`;
+}
+
+module.exports = generateMarkdown;
