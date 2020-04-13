@@ -1,8 +1,8 @@
 
-# Weather-Dashboard
+# Good-Readme-Generator
 
 ## Description
-The repo is for weather app
+Good-Readme-Generator is a command-line that dynamically generates a README.md from a user's input. The user is prompted for their GitHub username, which will be used to make a call to the GitHub API to retrieve the user's profile picture. The application then prompts the user with questions about their project, answers to which will be used to populate the generated README.md.
 
 ## Table of Contents
 1. [Installation](#installation)
